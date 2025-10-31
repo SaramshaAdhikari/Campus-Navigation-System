@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Campus Navigation System</title>
+
+    <!-- ✅ Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- ✅ Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <style>
+      #map {
+        height: 100vh;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 🗺️ Map Container -->
+    <div id="map"></div>
+
+    <!-- 🧭 Controls Panel -->
+    <div id="controls">
+      <label for="start">Start Location:</label>
+      <select id="start">
+        <option value="">Select a start location</option>
+      </select>
+
+      <label for="end">End Location:</label>
+      <select id="end">
+        <option value="">Select an end location</option>
+      </select>
+
+      <label for="algorithm">Algorithm:</label>
+      <select id="algorithm">
+        <option value="">Choose an algorithm:</option>
+        <option value="bfs">BFS</option>
+        <option value="dfs">DFS</option>
+        <option value="dijkstra">Dijkstra's Algorithm</option>
+      </select>
+
+      <label>
+        <input type="checkbox" id="accessibility" />
+        Accessible Route
+      </label>
+
+      <button id="findRoute">Find Route</button>
+    </div>
+
+    <!-- ✅ Leaflet JS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <!-- ✅ Map Initialization -->
+    <script>
+      // Define map bounds based on your OSM <bounds> data
+      const bounds = L.latLngBounds(
+        [12.63416, 77.43688], // Southwest corner
+        [12.64425, 77.44617]  // Northeast corner
+      );
+
+      // Initialize the map
+      const map = L.map("map");
+      map.fitBounds(bounds);
+
+      // Add OpenStreetMap tile layer
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: "&copy; OpenStreetMap contributors",
+      }).addTo(map);
+
+      // Load and display your GeoJSON campus data
+      fetch("data/campus_area.geojson")
+        .then(response => response.json())
+        .then(data => {
+          L.geoJSON(data, {
+            style: { color: "#3388ff", weight: 2 },
+            onEachFeature: (feature, layer) => {
+              if (feature.properties && feature.properties.name) {
+                layer.bindPopup(feature.properties.name);
+              }
+            }
+          }).addTo(map);
+        });
+    </script>
+
+    <!-- ✅ Your Custom JS Files -->
+    <script src="js/graph.js"></script>
+    <script src="js/algorithms.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
