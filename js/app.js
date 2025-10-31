@@ -1,5 +1,5 @@
 // Fetch data and initialize the graph
-fetch("campus_nodes_edges.json")
+fetch("data/campus_nodes_edges.json")
   .then((response) => response.json())
   .then((data) => {
     // Validate structure
