@@ -1,51 +1,17 @@
 {
   "nodes": [
     {
-    "id": 72,
-    "name": "Streat",
-    "lat": 12.64160633717273,
-    "lng": 77.43736769681065,
-    "accessible": true,
-    "type": "building"
-  },
-   {
-    "id": 73,
-    "name": "Electric Station",
-    "lat": 12.64258516329644,
-    "lng": 77.4405113607628,
-    "accessible": true,
-    "type": "landmark"
-  },
-   {
-    "id": 74,
-    "name": "Jain University open field",
-    "lat": 12.64179971034622,
-    "lng": 77.44184804219127,
-    "accessible": true,
-    "type": "landmark"
-  },
-  
-   {
-    "id": 75,
-    "name": "First Aid Center",
-    "lat": 12.641162338054915,
-    "lng":  77.44020383702527,
-    "accessible": true,
-    "type": "building"
-  },
-
-
-  {
-    "id": 1,
-    "name": "Fast Food Restaurants",
-    "lat": 12.640888,
-    "lng": 77.436499,
-    "accessible": true,
-    "type": "landmark"
-  },{
+      "id": 1,
+      "name": "Fast Food Restaurants",
+      "lat": 12.640888,
+      "lng": 77.436499,
+      "accessible": true,
+      "type": "landmark"
+    },
+    {
       "id": 2,
       "name": "JGI Golf Course",
-      "lat": 12.642216, 
+      "lat": 12.642216,
       "lng": 77.437785,
       "accessible": true,
       "type": "landmark"
@@ -54,12 +20,12 @@
       "id": 3,
       "name": "Hanging Garden",
       "lat": 12.641708517571537,
-      "lng":  77.43761969910308,
+      "lng": 77.43761969910308,
       "accessible": true,
       "type": "landmark"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "FET Bus Stop",
       "lat": 12.642529384509077,
       "lng": 77.4394624767614,
@@ -67,16 +33,15 @@
       "type": "landmark"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "FET Bike Parking",
-      "lat": 12.642185532946062, 
+      "lat": 12.642185532946062,
       "lng": 77.43972766875282,
       "accessible": true,
       "type": "landmark"
     },
-   
     {
-      "id": 12,
+      "id": 6,
       "name": "SET Campus",
       "lat": 12.642,
       "lng": 77.440557,
@@ -84,7 +49,7 @@
       "type": "landmark"
     },
     {
-      "id": 13,
+      "id": 7,
       "name": "Campus Mess",
       "lat": 12.640895,
       "lng": 77.440862,
@@ -92,15 +57,15 @@
       "type": "landmark"
     },
     {
-      "id": 14,
+      "id": 8,
       "name": "Main Gate security guard post",
       "lat": 12.641455431745305,
-      "lng":  77.43714979917277,
+      "lng": 77.43714979917277,
       "accessible": true,
       "type": "landmark"
     },
     {
-      "id": 15,
+      "id": 9,
       "name": "JAIN University Main Gate",
       "lat": 12.641375,
       "lng": 77.437032,
@@ -108,103 +73,47 @@
       "type": "landmark"
     },
     {
-      "id": 16,
+      "id": 10,
       "name": "Archery Ground",
-      "lat": 12.63761099680181, 
+      "lat": 12.63761099680181,
       "lng": 77.44043703015534,
       "accessible": true,
       "type": "path"
     },
-    
     {
-      "id": 18,
+      "id": 11,
       "name": "Fire and Combustion Research Center, Jain University",
-      "lat": 12.643748742153555, 
+      "lat": 12.643748742153555,
       "lng": 77.44155296911603,
       "accessible": true,
       "type": "path"
     },
-
     {
-      "id": 22,
+      "id": 12,
       "name": "JIRS Hockey Ground",
-      "lat": 12.64002512550255, 
+      "lat": 12.64002512550255,
       "lng": 77.44348167838156,
       "accessible": true,
       "type": "path"
     },
     {
-      "id": 25,
+      "id": 13,
       "name": "Arihant Block SET",
-      "lat": 12.639250485827668, 
+      "lat": 12.639250485827668,
       "lng": 77.44366192166898,
       "accessible": true,
       "type": "path"
     },
-    
     {
-      "id": 80,
-      "name": "JIRS BASKET BALL COURT.",
-      "lat": 12.63810582536164,
-      "lng": 77.44178326662013,
-      "accessible": true,
-      "type": "path"
-    },
-        {
-      "id": 81,
-      "name": "JIRS TENNIS COURT.",
-      "lat": 12.638640141800392,
-      "lng":  77.44182879683783,
-      "accessible": true,
-      "type": "path"
-    },
-    {
-      "id": 87,
-      "name": "Lower tennis court",
-      "lat": 12.6395796448258, 
-      "lng": 77.44252938776889,
-      "accessible": true,
-      "type": "path"
-    },
-    
-    {
-      "id": 89,
-      "name": "JIRS tennis court-2",
-      "lat": 12.639240750993958, 
-      "lng": 77.44238426038322,
-      "accessible": true,
-      "type": "path"
-    },
-    
-    {
-      "id": 99,
-      "name": "JIRS Cricket Ground",
-      "lat": 12.640085746906445, 
-      "lng": 77.4450026047662,
-      "accessible": true,
-      "type": "path"
-    },
-
-    
-        {
-      "id": 83,
-      "name": "Football field",
-      "lat": 12.639668302727001,
-      "lng":  77.44143176547078,
-      "accessible": true,
-      "type": "path"
-    },
-    {
-      "id": 26,
+      "id": 14,
       "name": "Jain Academy for Sporting Excellence - Football",
-      "lat": 12.638834021314878, 
+      "lat": 12.638834021314878,
       "lng": 77.44450663225368,
       "accessible": true,
       "type": "building"
     },
-    
     {
-      "id": 32,
+      "id": 15,
       "name": "Sri Bhagawan Dattatreya Temple",
       "lat": 12.63918715960412,
       "lng": 77.44300846534409,
@@ -212,7 +121,7 @@
       "type": "building"
     },
     {
-      "id": 35,
+      "id": 16,
       "name": "CAUVERY DORMITORY",
       "lat": 12.63802746897616,
       "lng": 77.44402785898454,
@@ -220,7 +129,7 @@
       "type": "building"
     },
     {
-      "id": 38,
+      "id": 17,
       "name": "Staff Quarters",
       "lat": 12.637130470558386,
       "lng": 77.44411757883138,
@@ -228,7 +137,7 @@
       "type": "building"
     },
     {
-      "id": 40,
+      "id": 18,
       "name": "Hanuman Temple",
       "lat": 12.636820690200516,
       "lng": 77.443573264818,
@@ -236,7 +145,7 @@
       "type": "building"
     },
     {
-      "id": 46,
+      "id": 19,
       "name": "Pancha Mukhi Ganapati Mandir",
       "lat": 12.637360482367702,
       "lng": 77.44323320209904,
@@ -244,7 +153,7 @@
       "type": "building"
     },
     {
-      "id": 47,
+      "id": 20,
       "name": "Collesseum",
       "lat": 12.637712536082136,
       "lng": 77.4433971544311,
@@ -252,7 +161,7 @@
       "type": "building"
     },
     {
-      "id": 48,
+      "id": 21,
       "name": "Sri Datta Sai Spirutal Centre",
       "lat": 12.638216362951312,
       "lng": 77.44272532397184,
@@ -260,15 +169,15 @@
       "type": "building"
     },
     {
-      "id": 49,
+      "id": 22,
       "name": "Jain Public School",
-      "lat": 12.63831154655227, 
+      "lat": 12.63831154655227,
       "lng": 77.44068477210043,
       "accessible": true,
       "type": "building"
     },
     {
-      "id": 50,
+      "id": 23,
       "name": "MATS Institute of Management & Entrepreneurship",
       "lat": 12.638551898505106,
       "lng": 77.44025721349864,
@@ -276,7 +185,7 @@
       "type": "building"
     },
     {
-      "id": 51,
+      "id": 24,
       "name": "JAIN (Deemed-to-be-university) - International Institute of Aerospace and Engineering & Management",
       "lat": 12.639051549520262,
       "lng": 77.44016985826701,
@@ -284,15 +193,15 @@
       "type": "building"
     },
     {
-      "id": 53,
+      "id": 25,
       "name": "JIRS Swimming pool",
-      "lat": 12.640616428314912, 
+      "lat": 12.640616428314912,
       "lng": 77.44416028358165,
       "accessible": true,
       "type": "building"
     },
     {
-      "id": 55,
+      "id": 26,
       "name": "KARAKORAM DORMITORY",
       "lat": 12.640770003367223,
       "lng": 77.44148451112449,
@@ -300,7 +209,7 @@
       "type": "path"
     },
     {
-      "id": 57,
+      "id": 27,
       "name": "Path_385",
       "lat": 12.640844999999999,
       "lng": 77.44033200000001,
@@ -308,7 +217,7 @@
       "type": "path"
     },
     {
-      "id": 61,
+      "id": 28,
       "name": "Water Treatment Plant",
       "lat": 12.6424196,
       "lng": 77.4381356,
@@ -316,7 +225,7 @@
       "type": "building"
     },
     {
-      "id": 65,
+      "id": 29,
       "name": "UL Jain Fire Lab",
       "lat": 12.643643774663193,
       "lng": 77.44188716012974,
@@ -324,7 +233,7 @@
       "type": "path"
     },
     {
-      "id": 66,
+      "id": 30,
       "name": "Mojo Campus Jain University (Janadhar)",
       "lat": 12.644119442017413,
       "lng": 77.43683025536781,
@@ -332,18 +241,98 @@
       "type": "building"
     },
     {
-      "id": 67,
+      "id": 31,
       "name": "Kanakapura Road Jain Bus Stop ",
-      "lat": 12.640468749745715, 
+      "lat": 12.640468749745715,
       "lng": 77.43557680570649,
       "accessible": true,
       "type": "path"
     },
     {
-      "id": 71,
+      "id": 32,
       "name": "Auto Stand",
       "lat": 12.64174716,
       "lng": 77.43629536,
+      "accessible": true,
+      "type":Type": "path"
+    },
+    {
+      "id": 33,
+      "name": "Street",
+      "lat": 12.64160633717273,
+      "lng": 77.43736769681065,
+      "accessible": true,
+      "type": "building"
+    },
+    {
+      "id": 34,
+      "name": "Electric Station",
+      "lat": 12.64258516329644,
+      "lng": 77.4405113607628,
+      "accessible": true,
+      "type": "landmark"
+    },
+    {
+      "id": 35,
+      "name": "Jain University open field",
+      "lat": 12.64179971034622,
+      "lng": 77.44184804219127,
+      "accessible": true,
+      "type": "landmark"
+    },
+    {
+      "id": 36,
+      "name": "First Aid Center",
+      "lat": 12.641162338054915,
+      "lng": 77.44020383702527,
+      "accessible": true,
+      "type": "building"
+    },
+    {
+      "id": 37,
+      "name": "JIRS BASKET BALL COURT",
+      "lat": 12.63810582536164,
+      "lng": 77.44178326662013,
+      "accessible": true,
+      "type": "path"
+    },
+    {
+      "id": 38,
+      "name": "JIRS TENNIS COURT",
+      "lat": 12.638640141800392,
+      "lng": 77.44182879683783,
+      "accessible": true,
+      "type": "path"
+    },
+    {
+      "id": 39,
+      "name": "Football field",
+      "lat": 12.639668302727001,
+      "lng": 77.44143176547078,
+      "accessible": true,
+      "type": "path"
+    },
+    {
+      "id": 40,
+      "name": "Lower tennis court",
+      "lat": 12.6395796448258,
+      "lng": 77.44252938776889,
+      "accessible": true,
+      "type": "path"
+    },
+    {
+      "id": 41,
+      "name": "JIRS tennis court-2",
+      "lat": 12.639240750993958,
+      "lng": 77.44238426038322,
+      "accessible": true,
+      "type": "path"
+    },
+    {
+      "id": 42,
+      "name": "JIRS Cricket Ground",
+      "lat": 12.640085746906445,
+      "lng": 77.4450026047662,
       "accessible": true,
       "type": "path"
     }
