@@ -144,5 +144,4 @@ function dijkstra(graph, startId, endId, criteria = "distance", accessibility = 
   return path.length > 0 ? { path, totalDistance: distances[endId] || 0 } : [];
 }
 
-// --- Export if using ES modules ---
-export { bfs, dfs, dijkstra };
+

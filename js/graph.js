@@ -15,21 +15,38 @@ class Graph {
     }
   }
 
-  addEdge(edge) {
+addEdge(edge) {
     if (!edge.from || !edge.to) {
       console.warn("Invalid edge (missing from/to):", edge);
       return;
     }
 
-    const fromEdges = this.adjacencyList.get(edge.from) || [];
-    fromEdges.push({
-      to: edge.to,
-      weight: edge.distance ?? edge.weight ?? 1, // fallback for missing distance
-      accessible: edge.accessible ?? true, // default to accessible
-    });
-    this.adjacencyList.set(edge.from, fromEdges);
-  }
+    const weight = edge.distance_m ?? edge.distance ?? edge.weight ?? 1;
+    const accessible = edge.accessible ?? true;
 
+    // Ensure nodes exist in adjacency list
+    if (!this.adjacencyList.has(edge.from)) {
+        this.adjacencyList.set(edge.from, []);
+    }
+    if (!this.adjacencyList.has(edge.to)) {
+        this.adjacencyList.set(edge.to, []);
+    }
+
+    // Add edge from -> to
+    this.adjacencyList.get(edge.from).push({
+      to: edge.to,
+      weight: weight,
+      accessible: accessible,
+    });
+
+    // --- ADD THIS SECTION ---
+    // Add the reverse edge (to -> from) to make it two-way
+    this.adjacencyList.get(edge.to).push({
+      to: edge.from,
+      weight: weight,
+      accessible: accessible,
+    });
+  }
   // Optional helper: get neighbors
   getNeighbors(nodeId) {
     return this.adjacencyList.get(nodeId) || [];
