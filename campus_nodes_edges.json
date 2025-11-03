@@ -6295,6 +6295,80 @@
       "from": 401,
       "to": 364,
       "distance_m": 58.3
-    }
+    },
+    {
+      "from": 28,
+      "to": 29,
+      "distance_m": 1000
+    },
+{
+      "from": 29,
+      "to": 30,
+      "distance_m": 1500
+    },
+
+{
+      "from": 30,
+      "to": 31,
+      "distance_m": 450
+    },
+{
+      "from": 31,
+      "to": 32,
+      "distance_m": 230
+    },
+{
+      "from": 32,
+      "to": 33,
+      "distance_m": 550
+    },
+{
+      "from": 33,
+      "to": 34,
+      "distance_m": 400
+    },
+
+{
+      "from": 34,
+      "to": 35,
+      "distance_m": 300
+    },
+{
+      "from": 35,
+      "to": 36,
+      "distance_m": 170
+    },
+{
+      "from": 36,
+      "to": 37,
+      "distance_m": 600
+    },
+
+{
+      "from": 37,
+      "to": 38,
+      "distance_m": 68
+    },
+{
+      "from": 38,
+      "to": 39,
+      "distance_m": 260
+    },
+{
+      "from": 39,
+      "to": 40,
+      "distance_m": 100
+    },
+{
+      "from": 40,
+      "to": 41,
+      "distance_m": 100
+    },
+{
+      "from": 41,
+      "to": 42,
+      "distance_m": 400
+    },
+
   ]
 }
