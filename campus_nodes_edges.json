@@ -336,157 +336,13 @@
       "accessible": true,
       "type": "path"
     }
-  ],
+    ],
   "edges": [
+
     {
       "from": 1,
       "to": 2,
       "distance_m": 197.38
-    },
-    {
-      "from": 1,
-      "to": 3,
-      "distance_m": 372.77
-    },
-    {
-      "from": 1,
-      "to": 4,
-      "distance_m": 150.31
-    },
-    {
-      "from": 1,
-      "to": 5,
-      "distance_m": 374.35
-    },
-    {
-      "from": 1,
-      "to": 6,
-      "distance_m": 457.82
-    },
-    {
-      "from": 1,
-      "to": 7,
-      "distance_m": 475.44
-    },
-    {
-      "from": 1,
-      "to": 8,
-      "distance_m": 98.01
-    },
-    {
-      "from": 1,
-      "to": 9,
-      "distance_m": 77.60
-    },
-    {
-      "from": 1,
-      "to": 10,
-      "distance_m": 557.38
-    },
-    {
-      "from": 1,
-      "to": 11,
-      "distance_m": 633.51
-    },
-    {
-      "from": 1,
-      "to": 12,
-      "distance_m": 763.72
-    },
-    {
-      "from": 1,
-      "to": 13,
-      "distance_m": 798.03
-    },
-    {
-      "from": 1,
-      "to": 14,
-      "distance_m": 891.90
-    },
-    {      
-      "from": 2,
-      "to": 3,
-      "distance_m": 59.21
-    },
-    {
-      "from": 2,
-      "to": 4,
-      "distance_m": 185.31
-    },
-    {
-      "from": 2,
-      "to": 5,
-      "distance_m": 210.81
-    },
-    {
-      "from": 2,
-      "to": 6,
-      "distance_m": 301.72
-    },
-    {
-      "from": 2,
-      "to": 7,
-      "distance_m": 364.74
-    },
-    {
-      "from": 2,
-      "to": 8,
-      "distance_m": 109.1
-    },
-    {
-      "from": 2,
-      "to": 9,
-      "distance_m": 124.18
-    },
-    {
-      "from": 2,
-      "to": 10,
-      "distance_m": 587.36
-    },
-    {
-      "from": 2,
-      "to": 11,
-      "distance_m": 442.92
-    },
-    {
-      "from": 2,
-      "to": 12,
-      "distance_m": 664.36
-    },
-    {
-      "from": 2,
-      "to": 13,
-      "distance_m": 717.86
-    },
-    {
-      "from": 2,
-      "to": 14,
-      "distance_m": 820.54
-    },
-    {
-      "from": 3,
-      "to": 4,
-      "distance_m": 219.79
-    },
-    {
-      "from": 3,
-      "to": 5,
-      "distance_m": 234.78
-    },
-    {
-      "from": 3,
-      "to": 6,
-      "distance_m": 320.34
-    },
-    {
-      "from": 3,
-      "to": 7,
-      "distance_m": 363.23
-    },
-    {
-      "from": 3,
-      "to": 8,
-      "distance_m": 58.24
     },
     {
       "from": 2,
@@ -652,11 +508,6 @@
       "from": 4,
       "to": 14,
       "distance_m": 684.38
-    },
-    {
-      "from": 5,
-      "to": 16,
-      "distance_m": 656.86
     },
     {
       "from": 5,
@@ -842,10 +693,14 @@
       "from": 13,
       "to": 14,
       "distance_m": 102.69
-    }
-  ]
-}
+    },
+  
 
+    {
+      "from": 28,
+      "to": 29,
+      "distance_m": 153.95
+    },
     {
       "from": 29,
       "to": 30,
