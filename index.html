@@ -82,18 +82,24 @@
       }).addTo(map);
 
       // Load and display your GeoJSON campus data
-      fetch("data/campus_area.geojson")
-        .then(response => response.json())
-        .then(data => {
-          L.geoJSON(data, {
-            style: { color: "#3388ff", weight: 2 },
-            onEachFeature: (feature, layer) => {
-              if (feature.properties && feature.properties.name) {
-                layer.bindPopup(feature.properties.name);
-              }
-            }
-          }).addTo(map);
-        });
+// Load and display your GeoJSON campus data
+fetch("data/campus_area.geojson")
+  .then(response => response.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: { color: "#3388ff", weight: 2 },
+      onEachFeature: (feature, layer) => {
+        if (feature.properties && feature.properties.name) {
+          layer.bindPopup(feature.properties.name);
+        }
+      },
+      // ✅ ADD THIS FILTER:
+      filter: (feature) => {
+        // Only draw features that are NOT points
+        return feature.geometry.type !== "Point";
+      }
+    }).addTo(map);
+  });
     </script>
 
     <!-- ✅ Your Custom JS Files -->
